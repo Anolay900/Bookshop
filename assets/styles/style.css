@@ -16,19 +16,20 @@
 }
 
 .bottomnav--item,
-.bottomnav--activeitem {
+.bottomnav--activeitem,
+.greeting__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vh;
-    line-height: 12px;
 }
 
 .bottomnav--item {
+    font-size: 2vh;
     color: #BBD1D9;
 }
 
 .bottomnav--activeitem {
+    font-size: 2vh;
     color: #53889D;
 }
 
@@ -36,7 +37,23 @@
     text-decoration: none;
 }
 
+.greeting__text {
+    font-size: 3.4vh;
+}
+
 .bottomnav__link {
     height: 8vh;
     text-align: center;
+}
+
+.greeting {
+    background-color: white;
+}
+
+.greeting__caption {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7vh;
+    line-height: 36px;
 }
