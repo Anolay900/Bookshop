@@ -1,0 +1,42 @@
+.topnav__home {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5vh;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.topnav {
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.048);
+}
+
+.bottomnav {
+    box-shadow: 0 -7px 0 rgba(0, 0, 0, 0.048);
+}
+
+.bottomnav--item,
+.bottomnav--activeitem {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 12px;
+}
+
+.bottomnav--item {
+    color: #BBD1D9;
+}
+
+.bottomnav--activeitem {
+    color: #53889D;
+}
+
+.bottomnav__link:hover {
+    text-decoration: none;
+}
+
+.bottomnav__link {
+    height: 8vh;
+    text-align: center;
+}

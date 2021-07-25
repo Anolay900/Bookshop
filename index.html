@@ -11,11 +11,49 @@
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" type="images/svg" href="assets/images/books.svg">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Montserrat:wght@100">
 </head>
 
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <div class="navbar fixed-top topnav">
+                <p class="topnav__home m-2">Home</p>
+                <div>
+                    <a href="#" class="m-2"><img src="assets/images/search.svg" alt=""></a>
+                    <a href="#" class="m-2"><img src="assets/images/bascket.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="fixed-bottom p-1 justify-content-around d-flex flex-row bottomnav">
+                <a href="#" class="m-2 bottomnav__link">
+                    <figure>
+                        <img src="assets/images/home_active.svg" alt="">
+                        <figcaption class="bottomnav--activeitem">home</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="m-2 bottomnav__link">
+                    <figure>
+                        <img src="assets/images/compas.svg" alt="">
+                        <figcaption class="bottomnav--item">browse</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="m-2 bottomnav__link">
+                    <figure>
+                        <img src="assets/images/heart.svg" alt="">
+                        <figcaption class="bottomnav--item">wishlist</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="m-2 bottomnav__link">
+                    <figure>
+                        <img src="assets/images/user.svg" alt="">
+                        <figcaption class="bottomnav--item">profile</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </nav>
+
+
     </header>
 
     <main>
