@@ -6,6 +6,10 @@
     color: #4F4F4F;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .margin {
     margin: 20% 0%;
 }
@@ -25,10 +29,17 @@
 .bottomnav--item,
 .bottomnav--activeitem,
 .greeting__text,
-.author__name {
+.author__name,
+.book__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
+}
+
+.book__text {
+    margin: 0%;
+    font-size: 2.5vh;
+    color: #4F4F4F;
 }
 
 .bottomnav--item {
@@ -39,10 +50,6 @@
 .bottomnav--activeitem {
     font-size: 2vh;
     color: #53889D;
-}
-
-.bottomnav__link:hover {
-    text-decoration: none;
 }
 
 .greeting__text {
@@ -59,10 +66,17 @@
 }
 
 .greeting__caption,
-.caption {
+.caption,
+.book__caption {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
+}
+
+.book__caption {
+    margin: 0%;
+    font-size: 3vh;
+    color: black;
 }
 
 .greeting__caption {
@@ -90,12 +104,30 @@
     color: black;
 }
 
-
-
-.author:hover {
-    text-decoration: none;
-}
-
 .slidertop {
     margin-top: 10%;
+}
+
+.book {
+    height: 100%;
+}
+
+.slider__item--padding {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cover--padding {
+    padding-bottom: 10px;
+}
+
+.book {
+    width: 90%;
+    height: 20%;
+    margin-left: 0%;
+    padding-left: 8px;
+}
+
+.book--problem {
+    margin-left: 0%;
 }
