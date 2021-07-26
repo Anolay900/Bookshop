@@ -7,21 +7,25 @@
 }
 
 .margin {
-    margin-bottom: 25%;
+    margin: 20% 0%;
 }
 
 .topnav {
+    width: 100vw;
+    background-color: white;
     box-shadow: 0 7px 0 rgba(0, 0, 0, 0.048);
 }
 
 .bottomnav {
+    width: 100vw;
     background-color: white;
     box-shadow: 0 -7px 0 rgba(0, 0, 0, 0.048);
 }
 
 .bottomnav--item,
 .bottomnav--activeitem,
-.greeting__text {
+.greeting__text,
+.author__name {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -71,4 +75,27 @@
 
 .slick-track {
     display: flex;
+}
+
+.article {
+    margin-top: 15%;
+}
+
+
+.author__name {
+    width: 76%;
+    padding-top: 10%;
+    font-size: 2vh;
+    text-align: center;
+    color: black;
+}
+
+
+
+.author:hover {
+    text-decoration: none;
+}
+
+.slidertop {
+    margin-top: 10%;
 }
