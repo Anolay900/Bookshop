@@ -28,28 +28,20 @@
 
             <div class="fixed-bottom p-1 justify-content-around d-flex flex-row bottomnav">
                 <a href="#" class="m-2 bottomnav__link">
-                    <figure>
-                        <img src="assets/images/home_active.svg" alt="">
-                        <figcaption class="bottomnav--activeitem">home</figcaption>
-                    </figure>
+                    <img src="assets/images/home_active.svg" alt="">
+                    <p class="bottomnav--activeitem">home</p>
                 </a>
                 <a href="#" class="m-2 bottomnav__link">
-                    <figure>
-                        <img src="assets/images/compas.svg" alt="">
-                        <figcaption class="bottomnav--item">browse</figcaption>
-                    </figure>
+                    <img src="assets/images/compas.svg" alt="">
+                    <p class="bottomnav--item">browse</p>
                 </a>
                 <a href="#" class="m-2 bottomnav__link">
-                    <figure>
-                        <img src="assets/images/heart.svg" alt="">
-                        <figcaption class="bottomnav--item">wishlist</figcaption>
-                    </figure>
+                    <img src="assets/images/heart.svg" alt="">
+                    <p class="bottomnav--item">wishlist</p>
                 </a>
                 <a href="#" class="m-2 bottomnav__link">
-                    <figure>
-                        <img src="assets/images/user.svg" alt="">
-                        <figcaption class="bottomnav--item">profile</figcaption>
-                    </figure>
+                    <img src="assets/images/user.svg" alt="">
+                    <p class="bottomnav--item">profile</p>
                 </a>
             </div>
         </nav>
@@ -57,7 +49,7 @@
 
     </header>
 
-    <main>
+    <main class="margin">
         <section>
             <div class="jumbotron greeting">
                 <h1 class="greeting__caption">Welcome back,
@@ -67,13 +59,32 @@
                     find your next
                     page turner!</p>
             </div>
-            <article></article>
-            <article></article>
+
+            <article class="container">
+                <h2 class="caption">Popular Lists</h2>
+
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="assets/images/List1.svg" alt="First">
+                    </div>
+
+                    <div class="slider__item">
+                        <img src="assets/images/List2.svg" alt="First"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+            </article>
             <article></article>
             <article></article>
         </section>
     </main>
 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -84,6 +95,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

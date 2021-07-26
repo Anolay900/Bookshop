@@ -3,8 +3,11 @@
     font-style: normal;
     font-weight: bold;
     font-size: 3.5vh;
-    line-height: 20px;
     color: #4F4F4F;
+}
+
+.margin {
+    margin-bottom: 25%;
 }
 
 .topnav {
@@ -12,6 +15,7 @@
 }
 
 .bottomnav {
+    background-color: white;
     box-shadow: 0 -7px 0 rgba(0, 0, 0, 0.048);
 }
 
@@ -50,10 +54,21 @@
     background-color: white;
 }
 
-.greeting__caption {
+.greeting__caption,
+.caption {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
+}
+
+.greeting__caption {
     font-size: 7vh;
-    line-height: 36px;
+}
+
+.caption {
+    font-size: 5vh;
+}
+
+.slick-track {
+    display: flex;
 }
