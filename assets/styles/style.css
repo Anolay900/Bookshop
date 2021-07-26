@@ -30,7 +30,8 @@ a:hover {
 .bottomnav--activeitem,
 .greeting__text,
 .author__name,
-.book__text {
+.book__text,
+.genres__title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -40,6 +41,14 @@ a:hover {
     margin: 0%;
     font-size: 2.5vh;
     color: #4F4F4F;
+}
+
+.genres__title {
+    padding-top: 2%;
+    width: 95%;
+    text-align: center;
+    font-size: 2.5vh;
+    color: #4F4F4F
 }
 
 .bottomnav--item {
@@ -93,6 +102,7 @@ a:hover {
 
 .article {
     margin-top: 15%;
+    margin-bottom: 10%;
 }
 
 
@@ -130,4 +140,20 @@ a:hover {
 
 .book--problem {
     margin-left: 0%;
+}
+
+.genres {
+    margin-top: 5%;
+    margin-bottom: 35%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
+}
+
+.genres__img {
+    border-radius: 10%;
+    padding: 25%;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.048);
+    ;
 }
