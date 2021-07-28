@@ -31,7 +31,10 @@ a:hover {
 .greeting__text,
 .author__name,
 .book__text,
-.genres__title {
+.genres__title,
+.book__author,
+.book__info,
+.book__btn {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -41,6 +44,21 @@ a:hover {
     margin: 0%;
     font-size: 2.5vh;
     color: #4F4F4F;
+}
+
+.book__btn {
+    font-size: 3.5vh;
+    color: #53889D;
+}
+
+.book__author {
+    font-size: 3.5vh;
+    color: #4F4F4F;
+}
+
+.book__info {
+    font-size: 2.5vh;
+    color: #828282;
 }
 
 .genres__title {
@@ -118,28 +136,17 @@ a:hover {
     margin-top: 10%;
 }
 
-.book {
-    height: 100%;
-}
-
 .slider__item--padding {
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+.slider__item--margin {
+    margin-right: 6px;
 }
 
 .cover--padding {
     padding-bottom: 10px;
-}
-
-.book {
-    width: 90%;
-    height: 20%;
-    margin-left: 0%;
-    padding-left: 8px;
-}
-
-.book--problem {
-    margin-left: 0%;
 }
 
 .genres {
@@ -156,4 +163,18 @@ a:hover {
     padding: 25%;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.048);
     ;
+}
+
+.book {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.book__image {
+    justify-self: center;
+}
+
+#more {
+    display: none;
 }
