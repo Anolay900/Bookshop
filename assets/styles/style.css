@@ -45,7 +45,8 @@ a:hover {
 .book__info,
 .book__btn,
 .book__buy,
-.book__wish {
+.book__wish,
+.book__cost {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -253,4 +254,13 @@ a:hover {
     margin: 2% 5%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.similar__margin {
+    margin-top: 6%;
+}
+
+.book__cost {
+    font-size: 2.5vh;
+    color: #D96F6E;
 }
