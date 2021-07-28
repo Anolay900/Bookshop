@@ -1,9 +1,18 @@
-.topnav__home {
+.topnav__home,
+.genrebook__caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 3.5vh;
     color: #4F4F4F;
+}
+
+.topnav__home {
+    font-size: 3.5vh;
+}
+
+.genrebook__caption {
+    text-align: center;
+    font-size: 3vh;
 }
 
 a:hover {
@@ -34,7 +43,9 @@ a:hover {
 .genres__title,
 .book__author,
 .book__info,
-.book__btn {
+.book__btn,
+.book__buy,
+.book__wish {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -59,6 +70,31 @@ a:hover {
 .book__info {
     font-size: 2.5vh;
     color: #828282;
+}
+
+.book__buy,
+.book__wish {
+    font-size: 3.5vh;
+    padding: 3%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.book__buy:hover {
+    color: #fff;
+}
+
+.book__wish:hover {
+    color: #fff;
+}
+
+.book__buy {
+    background-color: #D96F6E;
+}
+
+.book__wish {
+    background-color: #F3A492;
 }
 
 .genres__title {
@@ -177,4 +213,38 @@ a:hover {
 
 #more {
     display: none;
+}
+
+.genrebook__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.genrebook {
+    margin: 8% 3%;
+}
+
+.genrebook__btn--pink,
+.genrebook__btn--blue {
+    padding: 1% 7%;
+    margin: 0% 2%;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.genrebook__btn--pink:hover,
+.genrebook__btn--blue:hover {
+    color: #fff;
+}
+
+.genrebook__btn--pink {
+    background: linear-gradient(to right, #F2D05C, #F3A492);
+}
+
+.genrebook__btn--blue {
+    background: linear-gradient(to right, #53889D, #d2e3eb);
 }
