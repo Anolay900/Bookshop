@@ -46,16 +46,40 @@ a:hover {
 .book__btn,
 .book__buy,
 .book__wish,
-.book__cost {
+.book__cost,
+.profile__info {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
+}
+
+.subscribe__num {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vh;
+    color: black;
+}
+
+.subscribe__num:hover {
+    color: black;
+}
+
+.subscribe--info {
+    align-self: end;
 }
 
 .book__text {
     margin: 0%;
     font-size: 2.5vh;
     color: #4F4F4F;
+}
+
+.profile__info {
+    font-size: 2vh;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: #828282;
 }
 
 .book__btn {
@@ -78,6 +102,7 @@ a:hover {
     font-size: 3.5vh;
     padding: 3%;
     border-radius: 10px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #fff;
 }
@@ -131,7 +156,8 @@ a:hover {
 
 .greeting__caption,
 .caption,
-.book__caption {
+.book__caption,
+.profile_caption {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
@@ -141,6 +167,10 @@ a:hover {
     margin: 0%;
     font-size: 3vh;
     color: black;
+}
+
+.profile_caption {
+    font-size: 6vh;
 }
 
 .greeting__caption {
@@ -263,4 +293,11 @@ a:hover {
 .book__cost {
     font-size: 2.5vh;
     color: #D96F6E;
+}
+
+.subscribe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 40%);
+    justify-content: space-evenly;
 }
