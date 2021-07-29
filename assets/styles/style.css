@@ -358,3 +358,21 @@ a:hover {
     grid-template-rows: repeat(2, 40%);
     justify-content: space-evenly;
 }
+
+.wishlist__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wishlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article__img {
+    max-width: 100%;
+}
+
+.wishlistbooks {
+    margin-bottom: 30%;
+}
