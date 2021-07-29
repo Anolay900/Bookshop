@@ -53,16 +53,24 @@ a:hover {
     font-weight: normal;
 }
 
-.subscribe__num {
+.subscribe__num,
+.favorgenres__caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 4.5vh;
     color: black;
 }
 
 .subscribe__num:hover {
     color: black;
+}
+
+.subscribe__num {
+    font-size: 4.5vh;
+}
+
+.favorgenres__caption {
+    font-size: 3vh;
 }
 
 .subscribe--info {
@@ -251,14 +259,24 @@ a:hover {
     justify-content: center;
 }
 
+.favorgenres__btn {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
 .genrebook {
     margin: 8% 3%;
 }
 
 .genrebook__btn--pink,
-.genrebook__btn--blue {
-    padding: 1% 7%;
-    margin: 0% 2%;
+.genrebook__btn--blue,
+.genrebook__btn--rose,
+.genrebook__btn--yellowpink,
+.genrebook__btn--blueyellow,
+.genrebook__btn--reverse {
+    padding: 1% 6%;
+    margin: 0% 1%;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -268,7 +286,11 @@ a:hover {
 }
 
 .genrebook__btn--pink:hover,
-.genrebook__btn--blue:hover {
+.genrebook__btn--blue:hover,
+.genrebook__btn--rose:hover,
+.genrebook__btn--yellowpink:hover,
+.genrebook__btn--blueyellow:hover,
+.genrebook__btn--reverse:hover {
     color: #fff;
 }
 
@@ -276,8 +298,20 @@ a:hover {
     background: linear-gradient(to right, #F2D05C, #F3A492);
 }
 
+.genrebook__btn--reverse {
+    background: linear-gradient(to left, #F2D05C, #F3A492);
+}
+
 .genrebook__btn--blue {
     background: linear-gradient(to right, #53889D, #d2e3eb);
+}
+
+.genrebook__btn--blueyellow {
+    background: linear-gradient(to left, #BBD1D9, #F2D05C);
+}
+
+.genrebook__btn--rose {
+    background: linear-gradient(to right, #F3A492, #D96F6E);
 }
 
 .social {
