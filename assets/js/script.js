@@ -21,6 +21,7 @@ $(document).ready(function(){
         pauseOnHover: true,
         pauseOnFocus: true,
         slidesToShow: 2,
+        slidesToScroll: 2,
     });
 });
 
