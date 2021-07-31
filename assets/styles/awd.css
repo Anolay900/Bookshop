@@ -1,0 +1,34 @@
+@media screen and (min-width: 240px) and (max-width: 319px) {
+    .book--text {
+        width: 80%;
+    }
+
+    .genres {
+        margin-top: 5%;
+        margin-bottom: 45%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2%;
+
+    }
+
+    .genres__img {
+        padding: 20%;
+    }
+
+    .genres__title {
+        margin-top: 3%;
+        width: 85%;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    .caption {
+        font-size: 4.5vh;
+    }
+
+    .margin {
+        margin: 35% 0%;
+    }
+}

@@ -12,7 +12,23 @@ $(document).ready(function(){
         autoplay: true,
         pauseOnHover: true,
         pauseOnFocus: true,
-        slidesToShow: 5,
+        mobileFirst:true,
+
+        responsive:[
+            {
+                breakpoint: 240,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },{
+                breakpoint: 320,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                }
+            }
+        ]
     });
 
     $('.sliderbook').slick({
@@ -20,8 +36,23 @@ $(document).ready(function(){
         autoplay: true,
         pauseOnHover: true,
         pauseOnFocus: true,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        mobileFirst:true,
+
+        responsive:[
+            {
+                breakpoint: 240,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },{
+                breakpoint: 320,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 });
 
