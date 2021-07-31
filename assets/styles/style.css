@@ -362,6 +362,7 @@ a:hover {
 .wishlist__column {
     display: flex;
     flex-direction: column;
+    justify-self: center;
 }
 
 .wishlist {

@@ -32,3 +32,46 @@
         margin: 35% 0%;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .margin {
+        margin: 15% 0%;
+    }
+
+    .book--text {
+        width: 70%;
+    }
+
+    .author__name {
+        width: 55%;
+        font-size: 2.5vh;
+    }
+
+    .genres__title {
+        padding-top: 2%;
+        width: 80%;
+        text-align: center;
+        font-size: 2.5vh;
+    }
+
+    .book__caption {
+        width: 70%;
+    }
+
+    .genrebook__btn--pink,
+    .genrebook__btn--blue,
+    .genrebook__btn--rose,
+    .genrebook__btn--yellowpink,
+    .genrebook__btn--blueyellow,
+    .genrebook__btn--reverse {
+        padding: 1% 10%;
+        margin: 0% 1%;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5vh;
+        color: #fff;
+    }
+
+}
