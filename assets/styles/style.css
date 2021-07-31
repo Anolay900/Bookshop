@@ -6,6 +6,14 @@
     color: #4F4F4F;
 }
 
+.desktopnavbar {
+    display: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
 .topnav__home {
     font-size: 3.5vh;
 }
@@ -36,6 +44,8 @@ a:hover {
 }
 
 .bottomnav--item,
+.navbar--activeitem,
+.navbar--item,
 .bottomnav--activeitem,
 .greeting__text,
 .author__name,
@@ -167,6 +177,19 @@ a:hover {
     color: #BBD1D9;
 }
 
+.navbar--item {
+    color: #BBD1D9;
+}
+
+.navbar--activeitem {
+    color: #53889D;
+}
+
+.navbar--item:hover,
+.navbar--activeitem:hover {
+    color: #53889D;
+}
+
 .bottomnav--activeitem {
     font-size: 2vh;
     color: #53889D;
@@ -239,14 +262,6 @@ a:hover {
     padding-left: 15px;
 }
 
-.slider__item--margin {
-    margin-right: 6px;
-}
-
-.cover--padding {
-    padding-bottom: 10px;
-}
-
 .genres {
     margin-top: 5%;
     margin-bottom: 35%;
@@ -257,6 +272,7 @@ a:hover {
 }
 
 .genres__img {
+    width: 62px;
     border-radius: 10%;
     padding: 25%;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.048);
@@ -376,4 +392,39 @@ a:hover {
 
 .wishlistbooks {
     margin-bottom: 30%;
+}
+
+.listimg {
+    width: 216px;
+}
+
+.author__image {
+    width: 48px;
+}
+
+.book__cover {
+    width: 143px;
+}
+
+.profilefoto {
+    width: 128px;
+}
+
+.book--height {
+    width: 128px;
+    height: 201px;
+}
+
+.book--heightsec {
+    width: 130px;
+    height: 220px;
+}
+
+.book--heighthird {
+    width: 145px;
+    height: 219px;
+}
+
+.book__cover--wishlist {
+    width: 78px;
 }

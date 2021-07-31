@@ -21,6 +21,14 @@
         <nav>
             <div class="navbar fixed-top topnav">
                 <p class="topnav__home m-2">Profile</p>
+
+                <div class="desktopnavbar">
+                    <a href="index.html" class="m-2 navbar--activeitem">home</a>
+                    <a href="#" class="m-2 navbar--item">browse</a>
+                    <a href="#" class="m-2 navbar--item">wishlist</a>
+                    <a href="profile.html" class="m-2 navbar--item">profile</a>
+                </div>
+
                 <div>
                     <a href="#" class="m-2"><img src="assets/images/search.svg" alt=""></a>
                     <a href="#" class="m-2"><img src="assets/images/bascket.svg" alt=""></a>
@@ -53,7 +61,7 @@
     <main class="margin">
         <section class="container mt-5">
             <div class="book">
-                <img class="book__image mt-4" src="assets/images/profilefoto.png" alt="cover">
+                <img class="book__image mt-4 profilefoto" src="assets/images/profilefoto.png" alt="cover">
                 <h3 class="profile_caption mt-3 mb-0">Jessica Mapleton</h3>
                 <p class="profile__info">Cape Town, South Africa</p>
                 <div class="subscribe">
@@ -81,9 +89,9 @@
                 <h4 class="favorgenres__caption">Purchased Books <span class="amount">19</span></h4>
 
                 <div class="sliderbook">
-                    <div class="mr-2">
+                    <div>
                         <a href="#">
-                            <img class="mt-2" src="assets/images/book7.png" alt="cover">
+                            <img class="mt-2 book__cover book--height" src="assets/images/books/book7.png" alt="cover">
                             <div>
                                 <h3 class="book__caption mt-2">Little Fires Everywhere</h3>
                                 <p class="book__text">Celeste Ng</p>
@@ -91,9 +99,9 @@
                         </a>
                     </div>
 
-                    <div class="mr-3">
+                    <div class="ml-2">
                         <a href="#">
-                            <img src="assets/images/book8.png" alt="cover">
+                            <img class="book__cover book--heightsec" src="assets/images/books/book8.png" alt="cover">
                             <div>
                                 <h3 class="book__caption ml-2">All the Pretty Horses</h3>
                                 <p class="book__text ml-2">Cormac McCarthy</p>
@@ -103,7 +111,7 @@
 
                     <div class="mr-3">
                         <a href="#">
-                            <img src="assets/images/book9.png" alt="cover">
+                            <img class="book__cover book--heighthird" src="assets/images/books/book9.png" alt="cover">
                             <div>
                                 <h3 class="book__caption ml-2">The Handmaid’s Tale</h3>
                                 <p class="book__text ml-2">Margaret Atwood</p>
@@ -113,7 +121,7 @@
 
                     <div class="mr-3">
                         <a href="#">
-                            <img src="assets/images/book10.png" alt="cover">
+                            <img class="book__cover" src="assets/images/books/book10.png" alt="cover">
                             <div>
                                 <h3 class="book__caption ml-2">The Great Gatsby</h3>
                                 <p class="book__text ml-2">F. Scott Fitzgerald</p>
@@ -129,16 +137,22 @@
                 <h4 class="favorgenres__caption">Wishlist <span class="amount">24</span></h4>
                 <div class="wishlist">
                     <div class="wishlist__column">
-                        <a href="#"><img src="assets/images/book16.png" class="article__img" alt="cover"></a>
-                        <a href="#"><img src="assets/images/book11.png" class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book11.png"
+                                class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book12.png"
+                                class="article__img" alt="cover"></a>
                     </div>
                     <div class="wishlist__column">
-                        <a href="#"><img src="assets/images/book12.png" class="article__img" alt="cover"></a>
-                        <a href="#"><img src="assets/images/book13.png" class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book13.png"
+                                class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book14.png"
+                                class="article__img" alt="cover"></a>
                     </div>
                     <div class="wishlist__column">
-                        <a href="#"><img src="assets/images/book14.png" class="article__img" alt="cover"></a>
-                        <a href="#"><img src="assets/images/book15.png" class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book15.png"
+                                class="article__img" alt="cover"></a>
+                        <a href="#"><img class="book__cover--wishlist" src="assets/images/books/book16.png"
+                                class="article__img" alt="cover"></a>
                     </div>
                 </div>
                 <a href="#" class="link">View all Wishlist Books &gt;</a>

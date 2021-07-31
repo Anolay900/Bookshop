@@ -29,7 +29,15 @@
     }
 
     .margin {
-        margin: 35% 0%;
+        margin: 25% 0%;
+    }
+
+    .book__caption {
+        width: 50%;
+    }
+
+    .book__cover--wishlist {
+        width: 58px;
     }
 }
 
@@ -74,4 +82,120 @@
         color: #fff;
     }
 
+    .genres__img {
+        width: 82px;
+    }
+
+    .book__cover--wishlist {
+        width: 108px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .margin {
+        margin-top: 8%;
+        margin-bottom: 0%;
+    }
+
+    .desktopnavbar {
+        display: initial;
+    }
+
+    .navbar--item,
+    .navbar--activeitem {
+        font-size: 3vh;
+    }
+
+    .bottomnav {
+        visibility: hidden;
+    }
+
+    .topnav__home {
+        font-size: 3.5vh;
+    }
+
+    .genres {
+        height: 110vh;
+        margin-bottom: 0%;
+    }
+
+    .book__caption {
+        width: 60%;
+    }
+
+    .article {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .listimg {
+        width: 412px;
+    }
+
+    .author__image {
+        width: 112px;
+    }
+
+    .book__cover,
+    .book__cover--wishlist {
+        width: 212px;
+    }
+
+    .genres__img {
+        width: 123px;
+    }
+
+    .genres__title {
+        padding-top: 1%;
+        width: 75%;
+        text-align: center;
+        font-size: 2.5vh;
+
+    }
+
+    .genres {
+        height: 100vh;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2%;
+    }
+
+    .genrebook__btn--pink,
+    .genrebook__btn--blue,
+    .genrebook__btn--rose,
+    .genrebook__btn--yellowpink,
+    .genrebook__btn--blueyellow,
+    .genrebook__btn--reverse {
+        padding: 1% 6%;
+        margin: 0% 1%;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5vh;
+        color: #fff;
+    }
+
+    .book--height {
+        width: 199px;
+        height: 297px;
+    }
+
+    .book--heightsec {
+        width: 212px;
+        height: 322px;
+    }
+
+    .book--heighthird {
+        width: 212px;
+        height: 321px;
+    }
+
+    .wishlistbooks {
+        margin-bottom: 15%;
+    }
 }

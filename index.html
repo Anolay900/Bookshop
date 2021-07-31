@@ -21,6 +21,14 @@
         <nav>
             <div class="navbar fixed-top topnav">
                 <p class="topnav__home m-2">Home</p>
+
+                <div class="desktopnavbar">
+                    <a href="index.html" class="m-2 navbar--activeitem">home</a>
+                    <a href="#" class="m-2 navbar--item">browse</a>
+                    <a href="#" class="m-2 navbar--item">wishlist</a>
+                    <a href="profile.html" class="m-2 navbar--item">profile</a>
+                </div>
+
                 <div>
                     <a href="#" class="m-2"><img src="assets/images/search.svg" alt=""></a>
                     <a href="#" class="m-2"><img src="assets/images/bascket.svg" alt=""></a>
@@ -66,11 +74,11 @@
 
                 <div class="slider">
                     <div class="slider__item">
-                        <a href="#"><img src="assets/images/List1.svg" alt="First"></a>
+                        <a href="#"><img class="listimg" src="assets/images/lists/list1.png" alt="First"></a>
                     </div>
 
                     <div class="slider__item">
-                        <a href="#"><img src="assets/images/List2.svg" alt="Second"></a>
+                        <a href="#"><img class="listimg" src="assets/images/lists/list2.png" alt="Second"></a>
                     </div>
                 </div>
             </article>
@@ -81,20 +89,20 @@
                 <div class="slidertop">
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author1.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author1.png" alt="foto">
                             <p class="author__name">Victoria Edwards</p>
                         </a>
                     </div>
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author2.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author2.png" alt="foto">
                             <p class="author__name">Connie Lane</p>
                         </a>
                     </div>
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author3.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author3.png" alt="foto">
                             <p class="author__name">Wade
                                 Richards</p>
                         </a>
@@ -102,7 +110,7 @@
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author4.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author4.png" alt="foto">
                             <p class="author__name">Mitchell
                                 Cooper</p>
                         </a>
@@ -110,7 +118,7 @@
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author5.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author5.png" alt="foto">
                             <p class="author__name">Irma
                                 Bell</p>
                         </a>
@@ -118,7 +126,7 @@
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author6.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author6.png" alt="foto">
                             <p class="author__name">Darlene
                                 Steward</p>
                         </a>
@@ -126,28 +134,28 @@
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author7.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author7.png" alt="foto">
                             <p class="author__name">Jorge Watson</p>
                         </a>
                     </div>
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author8.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author8.png" alt="foto">
                             <p class="author__name">Annette Sibaya</p>
                         </a>
                     </div>
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author9.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author9.png" alt="foto">
                             <p class="author__name">Max Murphy</p>
                         </a>
                     </div>
 
                     <div class="slider__item">
                         <a href="#" class="author">
-                            <img src="assets/images/authors/author10.png" alt="foto">
+                            <img class="author__image" src="assets/images/authors/author10.png" alt="foto">
                             <p class="author__name">Gregory Fisher</p>
                         </a>
                     </div>
@@ -158,9 +166,9 @@
                 <h2 class="caption">Latest Arrivals</h2>
 
                 <div class="sliderbook">
-                    <div class="slider__item--margin">
+                    <div>
                         <a href="bookpage.html" class="ml-1">
-                            <img src="assets/images/book1.png" alt="cover">
+                            <img src="assets/images/books/book1.png" class="book__cover" alt="cover">
                             <div class="ml-3">
                                 <h3 class="book__caption">Conversations with Friends</h3>
                                 <p class="book__text">Sally Rooney</p>
@@ -168,10 +176,10 @@
                         </a>
                     </div>
 
-                    <div class="slider__item--padding">
+                    <div>
                         <a href="#">
-                            <img class="cover--padding" src="assets/images/book2.png" alt="cover">
-                            <div>
+                            <img class="book__cover" src="assets/images/books/book2.png" alt="cover">
+                            <div class="ml-3">
                                 <h3 class="book__caption">The world doesn’t
                                     require you</h3>
                                 <p class="book__text">Rion Amilcar Scott</p>
@@ -179,10 +187,10 @@
                         </a>
                     </div>
 
-                    <div class="slider__item--margin">
+                    <div>
                         <a href="#">
-                            <img src="assets/images/book3.png" alt="cover">
-                            <div class="ml-2">
+                            <img class="book__cover" src="assets/images/books/book3.png" alt="cover">
+                            <div class="ml-3">
                                 <h3 class="book__caption">The last widow</h3>
                                 <p class="book__text">Karin Slaughter</p>
                             </div>
@@ -196,66 +204,66 @@
 
                 <div class="genres">
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/generalfiction.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/generalfiction.png" alt="genre">
                         <p class="genres__title">General
                             Fiction</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/crime.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/crime.png" alt="genre">
                         <p class="genres__title">Crime</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/thriller.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/thriller.png" alt="genre">
                         <p class="genres__title">Thriller</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/romance.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/romance.png" alt="genre">
                         <p class="genres__title">Romance</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/travel.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/travel.png" alt="genre">
                         <p class="genres__title">Travel</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/sports.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/sports.png" alt="genre">
                         <p class="genres__title">Sports</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/fiction.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/fiction.png" alt="genre">
                         <p class="genres__title">Science
                             Fiction</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/fantasy.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/fantasy.png" alt="genre">
                         <p class="genres__title">Fantasy</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/young.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/young.png" alt="genre">
                         <p class="genres__title">Young
                             Adult</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/children.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/children.png" alt="genre">
                         <p class="genres__title">Children’s
                             Books</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/classics.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/classics.png" alt="genre">
                         <p class="genres__title">Classics</p>
                     </a>
 
                     <a href="#">
-                        <img class="genres__img" src="assets/images/genres/nature.svg" alt="genre">
+                        <img class="genres__img" src="assets/images/genres/nature.png" alt="genre">
                         <p class="genres__title">Nature</p>
                     </a>
                 </div>
