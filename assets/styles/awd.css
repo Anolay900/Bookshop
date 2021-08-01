@@ -39,6 +39,10 @@
     .book__cover--wishlist {
         width: 58px;
     }
+
+    .wishlistbooks {
+        margin-bottom: 45%;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -197,5 +201,285 @@
 
     .wishlistbooks {
         margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1599px) {
+    .margin {
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .desktopnavbar {
+        display: initial;
+    }
+
+    .navbar--item,
+    .navbar--activeitem {
+        font-size: 3vh;
+    }
+
+    .bottomnav {
+        visibility: hidden;
+    }
+
+    .topnav__home {
+        font-size: 3.5vh;
+    }
+
+    .navbar--icon {
+        margin-right: 2%;
+    }
+
+    .greeting {
+        margin: 0% 20%;
+        text-align: center;
+    }
+
+    .listimg {
+        width: 512px;
+    }
+
+    .article {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .author__image {
+        width: 172px;
+    }
+
+    .author__name {
+        width: 88%;
+        padding-top: 10%;
+        font-size: 2.7vh;
+        text-align: center;
+        color: black;
+    }
+
+    .book__cover {
+        width: 312px;
+    }
+
+    .genres__img {
+        width: 176px;
+        border-radius: 10%;
+        padding: 25%;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.048);
+    }
+
+    .genres__title {
+        padding-top: 2%;
+        width: 78%;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    .genrebook__caption {
+        text-align: center;
+        font-size: 3.5vh;
+    }
+
+    .genrebook__btn--pink,
+    .genrebook__btn--blue,
+    .genrebook__btn--rose,
+    .genrebook__btn--yellowpink,
+    .genrebook__btn--blueyellow,
+    .genrebook__btn--reverse {
+        padding: 1% 10%;
+        margin: 0% 1%;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5vh;
+        color: #fff;
+    }
+
+    .book__buy,
+    .book__wish {
+        font-size: 3.5vh;
+        padding: 2%;
+        border-radius: 10px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .social {
+        margin: 2% 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social a {
+        margin: 0% 1%;
+    }
+
+    .profilefoto {
+        width: 228px;
+    }
+
+    .book--height {
+        width: 268px;
+        height: 439px;
+    }
+
+    .book--heightsec {
+        width: 298px;
+        height: 480px;
+    }
+
+    .book--heighthird {
+        width: 298px;
+        height: 480px;
+    }
+
+    .book--heightblock {
+        margin-top: 7px;
+    }
+
+    .book__cover--wishlist {
+        width: 212px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .margin {
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .desktopnavbar {
+        display: initial;
+    }
+
+    .navbar--item,
+    .navbar--activeitem {
+        font-size: 3vh;
+    }
+
+    .bottomnav {
+        visibility: hidden;
+    }
+
+    .topnav__home {
+        font-size: 3.5vh;
+    }
+
+    .navbar--icon {
+        margin-right: 2%;
+    }
+
+    .greeting {
+        margin: 0% 20%;
+        text-align: center;
+    }
+
+    .listimg {
+        width: 512px;
+    }
+
+    .article {
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .author__image {
+        width: 172px;
+    }
+
+    .author__name {
+        width: 80%;
+        padding-top: 10%;
+        font-size: 2.7vh;
+        text-align: center;
+        color: black;
+    }
+
+    .book__cover {
+        width: 312px;
+    }
+
+    .genres__img {
+        width: 200px;
+        border-radius: 10%;
+        padding: 25%;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.048);
+    }
+
+    .genres__title {
+        padding-top: 2%;
+        width: 75%;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    .genrebook__caption {
+        text-align: center;
+        font-size: 3.5vh;
+    }
+
+    .genrebook__btn--pink,
+    .genrebook__btn--blue,
+    .genrebook__btn--rose,
+    .genrebook__btn--yellowpink,
+    .genrebook__btn--blueyellow,
+    .genrebook__btn--reverse {
+        padding: 1% 10%;
+        margin: 0% 1%;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5vh;
+        color: #fff;
+    }
+
+    .book__buy,
+    .book__wish {
+        font-size: 3.5vh;
+        padding: 2%;
+        border-radius: 10px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .social {
+        margin: 2% 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social a {
+        margin: 0% 1%;
+    }
+
+    .profilefoto {
+        width: 328px;
+    }
+
+    .book--height {
+        width: 268px;
+        height: 439px;
+    }
+
+    .book--heightsec {
+        width: 298px;
+        height: 480px;
+    }
+
+    .book--heighthird {
+        width: 298px;
+        height: 480px;
+    }
+
+    .book--heightblock {
+        margin-top: 7px;
+    }
+
+    .book__cover--wishlist {
+        width: 212px;
     }
 }
