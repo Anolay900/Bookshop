@@ -430,3 +430,10 @@ a:hover {
 .book__cover--wishlist {
     width: 78px;
 }
+
+.genres__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
