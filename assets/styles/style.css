@@ -361,10 +361,6 @@ a:hover {
     justify-content: space-evenly;
 }
 
-.similar__margin {
-    margin-top: 6%;
-}
-
 .book__cost {
     font-size: 2.5vh;
     color: #D96F6E;
@@ -431,9 +427,17 @@ a:hover {
     width: 78px;
 }
 
-.genres__container {
+.genres__container,
+.author {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+}
+
+.book__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
 }
