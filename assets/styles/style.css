@@ -37,7 +37,8 @@ a:hover {
     box-shadow: 0 7px 0 rgba(0, 0, 0, 0.048);
 }
 
-.bottomnav {
+.bottomnav,
+.desktopfooter {
     width: 100vw;
     background-color: white;
     box-shadow: 0 -7px 0 rgba(0, 0, 0, 0.048);
@@ -58,7 +59,8 @@ a:hover {
 .book__wish,
 .book__cost,
 .profile__info,
-.amount {
+.amount,
+.desktopfooter {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -84,7 +86,8 @@ a:hover {
     font-size: 3vh;
 }
 
-.amount {
+.amount,
+.desktopfooter {
     font-size: 2vh;
     color: #53889D;
 }
